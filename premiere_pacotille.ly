@@ -30,7 +30,7 @@
     des b a gis gis a
 
     bes gis <ees g>8 r8 q r8 q4. b'8
-    ees4 des bes b bes b
+    ees4 des bes bes bes b
     \time 4/4
     d d d e
     e e e f
@@ -44,8 +44,8 @@
     b4 b b \tuplet 3/2 {c8 b a}
     a4 a a \tuplet 3/2 {b8 a gis}
     gis4 gis gis \tuplet 3/2 {gis8 a b}
-    b4 e gis e
-    e4. d8 d8(d4.)
+    b4 e gis fis
+    e4. d8 d2
     \grace {b8(c)} cis2 b2
 
     a4 a a \tuplet 3/2 {c8 b a}
