@@ -91,7 +91,7 @@
       <gis b d> q q q
       <fis a cis e> q q q
       <fis a d> q q q
-      <a, cis e> q q q
+      <cis e a> q q q
 
       <b' cis e>4 q <b cis f> <b cis fis>
       <gis b d> q q r
