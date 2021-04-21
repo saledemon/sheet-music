@@ -30,12 +30,21 @@
     ges, aes c aes
     g bes des bes
 
-    % other part
+    %C
+    \mark \markup \circle \bold "C"
     \key f \minor
+    g aes f' aes,
+    g aes f' aes,
+    g bes ees bes
+    g ees' c bes
 
-    \time 3/4 g8 c f c g c
+    g aes c aes
+    g aes des aes
 
-    \time 2/4 aes c ees c
+    g aes c aes
+    g aes e' aes,
+    g f' des bes
+    g aes c aes
 
   }
 
@@ -60,11 +69,19 @@
     <des f> f,
     q g
     
+    %C
+    q f
+    q f
+    q g
+    q aes
 
-    % other part
-    \key f \minor
-    <des' f> f, <des' f>
-    <ees g> aes,
+    q aes
+    <ees' f> bes
+
+    <des f> f,
+    q aes
+    q bes
+    q f
 
 
   }
