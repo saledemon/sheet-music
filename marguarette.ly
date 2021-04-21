@@ -1,5 +1,5 @@
 \header {
-  title = "Untitled"
+  title = "Marguarette"
   composer = "Frank Herbier"
 }
 
@@ -10,36 +10,32 @@
     \time 2/4
     \key bes \minor
     \clef bass
-    \repeat volta 4 {ges8 aes bes aes}
-    
-    \repeat volta 4 {ges8 aes des aes}
 
-    \repeat volta 4 {ges8 aes bes aes}
+    % A
+    \mark \markup \circle \bold "A"
+    ges8 aes bes aes
+    ges8 aes des aes
+    ges8 aes bes aes
+    ges8 bes c bes
 
-    \repeat volta 2 {ges8 aes c aes}
-
-    \repeat volta 2 {ges8 bes c bes}
-
-    % minor part
-
+    % B
+    \mark \markup \circle \bold "B"
     ges bes f' bes,
     ges f' ees des
-    ges bes c16 des c8
+    ges bes c bes
+    ges bes c16 des c bes
 
-    \repeat volta 2 {<ges bes>4 r}
-
-
+    ges,8 bes ees bes
+    ges f' ees des
+    ges, aes c aes
+    g bes des bes
 
     % other part
     \key f \minor
 
     \time 3/4 g8 c f c g c
 
-    \repeat volta 2 {\time 2/4 aes c ees c}
-
-    \repeat volta 2 {\tuplet 3/2 {aes c ees f ees c}}
-
-    \tuplet 3/2 {aes c ees f ees c}
+    \time 2/4 aes c ees c
 
   }
 
@@ -47,22 +43,27 @@
     \clef bass
     \key bes \minor
 
+    % A
     <des f>4 ges,
     <des' f>4 f,
     <des' f>4 ges,
-    <des' f> aes
     <ees' f> aes,
 
-    % minor part
+    % B
     <ees' f> bes
     <ees f> bes
     <ees f> bes
+    <ees f> ges,
 
-    <ees f> bes
+    <ees' f> bes
+    q aes
+    <des f> f,
+    q g
+    
 
     % other part
     \key f \minor
-    <des f> f, <des' f>
+    <des' f> f, <des' f>
     <ees g> aes,
 
 
