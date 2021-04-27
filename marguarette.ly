@@ -46,6 +46,32 @@
     g f' des bes
     g aes c aes
 
+    %D
+    \mark \markup \circle \bold "D"
+    aes c ees c
+    aes c aes' c,
+    aes aes' g f
+    aes, c ees c
+    aes c f c
+    aes c ees c
+    aes f' ees des
+    a bes des bes
+    a f' ees des
+    b4 c8 c
+
+    b c aes c
+    b c aes des
+
+    %E
+    \mark \markup \circle \bold "E"
+    g, bes f' bes,
+    g f' des c
+    g16 bes c bes f'8 bes,
+    g16 bes c bes des8 bes
+
+
+
+
   }
 
   \new Staff \relative c {
@@ -70,6 +96,7 @@
     q g
     
     %C
+    \key f \minor
     q f
     q f
     q g
@@ -83,6 +110,26 @@
     q bes
     q f
 
+    %D
+    <g' ees>4 aes,
+    <g' ees>4 aes,
+    <g' ees>4 aes,
+    <g' ees>4 aes,
+    <g' ees>4 aes,
+    <g' ees>4 aes,
+    <g' ees>4 a,
+    <g' ees>4 bes,
+    <g' ees>4 bes,
+    <g' ees>4 r
+
+    <g ees> aes,
+    <g' ees> bes,
+
+    %E
+    <f' ees> bes,
+    <f' ees> des
+    <f ees> bes,
+    <f' ees> f,
 
   }
   >>
